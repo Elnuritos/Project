@@ -1,9 +1,8 @@
 import numpy as np
 import tensorflow as tf
-import pickle
 
 
-from tensorflow.python.framework.ops import NullContextmanager
+
 tf.compat.v1.disable_eager_execution()
 crypto_msg_len = N = 16
 crypto_key_len = 16
